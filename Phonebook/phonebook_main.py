@@ -33,7 +33,7 @@ class ParentWindow(Frame):
         # This protocol method is a Tkinter built-in method to catch if
         # the user clicks th e upper corner, "X" on Windows OS.
         self.master.protocol("WM_DELETE_WINDOW", lambda: phonebook_func.ask_quit(self))
-        arg = self.master
+        # arg = self.master
 
         # load in the OUT widgets from a separate module,
         # keeping your code compartmentalized and clutter free
