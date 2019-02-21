@@ -47,5 +47,3 @@ def load_gui(self):
 
     phonebook_func.create_db(self)
     phonebook_func.onRefresh(self)
-
-if __name__ == "__main__":
