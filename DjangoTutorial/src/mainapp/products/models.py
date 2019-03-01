@@ -9,8 +9,6 @@ TYPE_CHOICES = [
 ]
 
 
-
-
 class Product(models.Model):
     type = models.CharField(max_length=60, choices=TYPE_CHOICES)
     name = models.CharField(max_length=60, default='', blank=True, null=False)
